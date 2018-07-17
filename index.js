@@ -1,18 +1,15 @@
 // Alright it's time for our next exercise
-  // Now that we have a input field you're going to need to 
-  // create a button element on the dom. 
-  // Once you've done that use javascript to target the button and attach an event listner to it.
-  // Have the eventListener listen for a click. 
-  // Onve the click has happened see if you can get the text value inside of the input field.
-
-// potential solution (previous exercise): ----------------
-//                                                        |
-// var inputField = document.querySelector('.text-input');|
-//                                                        |
-// input.addEventListener('keyup', function(event) {      |
-//   debugger;                                            |
-// });                                                    |
-// --------------------------------------------------------
-
-
-
+  // this exercise will be like the previous one but the only difference 
+  // is that instead of logging the input's value on a click
+  // you're going to append the value of the input field onto a <ul> on the DOM
+  // and clear whatever text is inside of the input field.
+  
+// potential solution (previous exercise): --------------------
+//var submitButton = document.querySelector('.submit-button'); |
+//                                                             |
+//submitButton.addEventListener('click', function(event) {     |
+//  var inputField = document.querySelector('.text-input');    |
+//  console.log(inputField.value)                              |
+//});                                                          |
+//                                                             |
+// ------------------------------------------------------------
