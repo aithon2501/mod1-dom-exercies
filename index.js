@@ -1,18 +1,29 @@
-// Now that you are able to a single listItem to the dom lets step it up.
-  // What I'd like you to do now is add another input field to the dom
-  // once the user clicks on the submit button add both of the inputs together 
-  // and append that value onto the dom.
+// Now that we can append both values onto the dom lets look at 
+// Disabeling the submit button unless there is valid content in both input fields.
 
-// potential solution (previous exercise): -------------------
-//                                                            |
+/// ---- potential answer (previous exercise) ------------------
 //var submitButton = document.querySelector('.submit-button');|
-//                                                            |
-//submitButton.addEventListener('click', function(event) {    |
-// var inputField = document.querySelector('.text-input');    |
-//  var listItems = document.querySelector('.list-items');    |
-//  var listItem = document.createElement('li');              |
-//  listItem.innerHTML = inputField.value;                    |
-//  listItems.append(listItem);                               |
-//  inputField.value = '';                                    |
-//});                                                         |
-// ------------------------------------------------------------
+
+//function formatIdea(title, body) {
+//  var listItem = document.createElement('li');
+//  var ideaText = title.value + '\n' + body.value
+//  return listItem.innerHTML = ideaText;
+//};
+//
+//function addToDom(formatedIdea) {
+//  document.querySelector('.list-items').append(formatedIdea)
+//}
+//
+//function resetInputs(title, body) {
+//  title.value = '';
+//  body.value = '';
+//}
+//
+//submitButton.addEventListener('click', function(event) {    
+//  var title = document.querySelector('.title');    
+//  var body  = document.querySelector('.body');    
+//  var formatedIdea = formatIdea(title, body);
+//  addToDom(formatedIdea);
+//  resetInputs(title, body);
+//});
+//--------------------------------------------------------------
