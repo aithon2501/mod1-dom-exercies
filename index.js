@@ -4,4 +4,5 @@
 // once you've dont that console.log the event.target
 // once you've dont that console.log the event.target.value
 //
-// What is the difference between
+//
+//PRO-TIP: replace the console.log with a debugger;
